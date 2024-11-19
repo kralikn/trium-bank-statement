@@ -81,7 +81,7 @@ export async function extractBankTransactions(data) {
     return { statementNumber, date, notes, amount }
   })
 
-  console.log(slicedTransactionsArray);
+  // console.log(slicedTransactionsArray);
   // return extractedTexts
   return transactionObjectsArray
 

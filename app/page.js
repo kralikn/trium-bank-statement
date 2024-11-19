@@ -41,7 +41,6 @@ export default function Home() {
 
   const onSubmit = (data) => {
 
-    console.log("cliens");
     if (!data.bank_statement[0]) {
       toast({
         description: 'Kérlek válassz egy fájlt!',
